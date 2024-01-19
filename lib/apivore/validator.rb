@@ -21,9 +21,9 @@ module Apivore
       unless has_errors?
         send(
           method,
-            full_path(swagger_checker),
-            params: params['_data'] || {},
-            headers: params['_headers'] || {}
+          full_path(swagger_checker),
+          params: params['_data'] || {},
+          headers: params['_headers'] || {}
         )
         swagger_checker.response = response
         post_checks(swagger_checker)
