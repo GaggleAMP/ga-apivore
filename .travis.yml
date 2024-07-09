@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 2.7
-- 3.2
+- 3.3
 before_install:
 - gem install bundler -v 2.4.22
 install:
