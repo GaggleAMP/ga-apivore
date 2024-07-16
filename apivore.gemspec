@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'rspec-mocks', '~> 3.1'
   s.add_runtime_dependency 'hashie', '~> 3.3'
   s.add_development_dependency 'pry', '~> 0'
-  s.add_development_dependency 'rake', '~> 10.3'
-  s.add_development_dependency 'rspec-rails', '~> 5'
+  s.add_development_dependency 'rake', '~> 12.2'
+  s.add_development_dependency 'rspec-rails', '~> 6'
 
   # Rails 5 stopped support for ruby < 2.2.2
   # Hack to support currently suported ruby versions
